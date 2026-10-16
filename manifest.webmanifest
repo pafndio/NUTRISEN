@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "NutriSen · Patrimoine culinaire & nutrition au Sénégal",
+  "short_name": "NutriSen",
+  "description": "Les 100 recettes du livre « Patrimoine culinaire et nutrition au Sénégal » (CRES, 2025) : photos, ingrédients, étapes et composition nutritionnelle, consultables hors ligne.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#1B3452",
+  "theme_color": "#1B3452",
+  "categories": ["food", "health", "education", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "screenshots/mobile.webp", "sizes": "780x1688", "type": "image/webp", "form_factor": "narrow", "label": "Fiche recette : photo, composition nutritionnelle et ingrédients" },
+    { "src": "screenshots/mobile-grid.webp", "sizes": "780x1688", "type": "image/webp", "form_factor": "narrow", "label": "Catalogue des 100 recettes avec filtres" },
+    { "src": "screenshots/desktop.webp", "sizes": "1440x900", "type": "image/webp", "form_factor": "wide", "label": "Accueil avec le carrousel 3D des plats et le catalogue" }
+  ],
+  "shortcuts": [
+    { "name": "Plat au hasard", "short_name": "Au hasard", "url": "./#hasard", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Mes favoris", "short_name": "Favoris", "url": "./#favoris", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Guide nutrition et mesures", "short_name": "Guide", "url": "./#guide", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
